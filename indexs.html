@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <input type="checkbox" name="menus" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="" class="logo"><span>a</span>dvika<span>B</span>eerzz..</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#product">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div class="fa-duotone fa-solid fa-user" id="profile"></div>
+            <div class="fa-solid fa-cart-shopping" id="addcard"></div>
+            <div class="fa-solid fa-magnifying-glass" id="searchicon"></div>
+        </div>
+        <div class="searched">
+            <input placeholder="search here.." type="text" id="search" name="search">
+            <label class="fa-solid fa-magnifying-glass" for="search"></label>
+        </div>
+        <div class="shopping">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img2.png" alt="" height="150px" width="100px">
+                <div class="content">
+                    <h3>korbel brandy</h3>
+                    <span class="price">12000</span>
+                    <span class="quatity">Qty -1</span>
+
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="img3.png" alt="" height="150px" width="100px">
+                <div class="content">
+                    <h3>korbel brandy</h3>
+                    <span class="price">12000</span>
+                    <span class="quatity">Qty -1</span>
+
+                </div>
+            </div>
+            <div class="btns">check Here</div>
+
+        </div>
+        <div class="shop-login">
+            <h1>logIn</h1>
+            <p id="errormsg"></p>
+            <form id="log-form">
+                 <input class="fa-solid fa-envelope" type="email" name="email" id="email" placeholder=" email"  >
+                 <input  class="fa-solid fa-eye" type="password" name="password" id="password" placeholder="password">
+                 <p>forget your password<a href="#">click Here</a></p>
+                 <p>Don't have an account<a href="#">Create Now</a></p>
+       
+                 <button class="btn">login Now</button>
+            </form>
+        </div>
+
+    </header>
+    <!-- section  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h2><span>q</span>uality of <span>w</span>ines</h2>
+            <h2>strong <span>&</span> serve</h2>
+            <p>Get upto<span> 30% off </span>limited edition</p>
+            <a href="#product" class="btn">shop now <i class="fa-solid fa-cart-shopping"></i> </a>
+        </div>
+    </section>
+    <!-- about section  -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> us</h1>
+        <div class="row">
+            <div class="video-con">
+                <video src="216671_small.mp4" loop autoplay muted></video>
+                <h3>best beerzz</h3>
+            </div>
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, laudantium sequi? Fuga, nemo iure
+                    tempora commodi id laborum quo! Dicta nesciunt ipsam recusandae totam. Cupiditate dolores
+                    accusantium explicabo labore eius exercitationem sequi autem ea, impedit veniam facere sunt
+                    praesentium velit!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto accusamus doloremque
+                    suscipit mollitia, ipsam obcaecati expedita aspernatur numquam perferendis quia placeat ipsa
+                    temporibus id voluptates totam sapiente harum animi! Odio ipsam amet harum officia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi nam quidem dicta, eveniet commodi
+                    officia sed, molestias rem hic modi quod maiores. Facilis ea dolorem distinctio, iure debitis esse
+                    in voluptate odit. Nam iste, fugit voluptatem quis facilis a exercitationem beatae eius quod
+                    praesentium mollitia ex, quia alias animi laudantium quidem magni quo repudiandae perspiciatis! Quae
+                    sequi eius fuga delectus reprehenderit? Inventore deserunt minima debitis provident blanditiis,
+                    aperiam animi hic.</p>
+                <a href="" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- icon section  -->
+    <div class="icone-cont">
+        <div class="icon">
+            <img src="logo1.jpg" width="50px" height="50px">
+            <div>
+                <h3>free delivery</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+        <div class="icon">
+            <img src="logo5.jpg" width="80px" height="50px">
+            <div>
+                <h3>10 days returns</h3>
+                <span>moneybank guarrantee</span>
+            </div>
+        </div>
+        <div class="icon">
+            <img src="logo3.jpg" width="80px" height="50px">
+            <div>
+                <h3>offer & gift</h3>
+                <span>on all orders</span>
+            </div>
+        </div>
+        <div class="icon">
+            <img src="card.jpg" width="80px" height="50px">
+            <div>
+                <h3>secure paymens</h3>
+                <span>protected by payment</span>
+            </div>
+        </div>
+    </div>
+    <!-- product section  -->
+
+    <marquee style="background-color: coral;" loop="-1" > restricted for alchocol</marquee>
+    <section class="products" id="product">
+
+        <h1 class="heading">latest<span>products</span></h1>
+        <div class="box-con">
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img1.png" alt="" height="150px" width="100px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>korbel brandy</h3>
+                    <div class="price"> &#8377 12000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img2.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>black label hot rum</h3>
+                    <div class="price">&#8377 5000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img3.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>jack daniels whiskey</h3>
+                    <div class="price">&#8377 7000</div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img4.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>dreher</h3>
+                    <div class="price">&#8377 13000</div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img5.png" alt="" height="150px" width="200px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>remy martin</h3>
+                    <div class="price">&#8377 17000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img6.png" alt="" height="150px" width="100px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>torres brandy</h3>
+                    <div class="price">&#8377 3000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img7.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>courvoisier</h3>
+                    <div class="price">&#8377 5500</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img16.png" alt="" height="150px" width="130px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>jameson</h3>
+                    <div class="price">&#8377 20000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img9.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>paul masson</h3>
+                    <div class="price">&#8377 18000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img10.png" alt="" height="150px" width="200px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>hennessy</h3>
+                    <div class="price">&#8377 12000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img11.png" alt="" height="150px" width="180px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>martell</h3>
+                    <div class="price">&#8377 22000</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img12.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>chivas regal whiskey</h3>
+                    <div class="price"> &#8377 41000</div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img13.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>tanqueray tequilla</h3>
+                    <div class="price">&#8377 7500</div>
+                </div>
+            </div>
+
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img14.png" alt="" height="200px" width="200px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>mc doWell's brandy</h3>
+                    <div class="price">&#8377 15000</div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="img15.png" alt="" height="150px" width="150px">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn"> add to cart</a>
+                        <a href="#" class="fas fa-share"></a>
+
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>old monk rum</h3>
+                    <div class="price">&#8377 35000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section starts -->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="box-cont">
+            <div class="box">
+                <div class="start">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex in modi distinctio quibusdam velit iste
+                    pariatur perferendis doloribus quasi ipsam illo molestiae accusantium sed, consectetur aspernatur?
+                    Accusamus voluptates ratione fugit?</p>
+                <div class="user">
+                    <img src="pepole1.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Lara</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box-cont">
+                <div class="box">
+                    <div class="start">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex in modi distinctio quibusdam velit
+                        iste pariatur perferendis doloribus quasi ipsam illo molestiae accusantium sed, consectetur
+                        aspernatur? Accusamus voluptates ratione fugit?</p>
+                    <div class="user">
+                        <img src="pepole3.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Madhavan</h3>
+                            <span>happy customer</span>
+                        </div>
+                    </div>
+                    <span class="fas fa-quote-right"></span>
+                </div>
+
+                <div class="box-cont">
+                    <div class="box">
+                        <div class="start">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex in modi distinctio quibusdam
+                            velit iste pariatur perferendis doloribus quasi ipsam illo molestiae accusantium sed,
+                            consectetur aspernatur? Accusamus voluptates ratione fugit?</p>
+                        <div class="user">
+                            <img src="pepole2.jpg" alt="">
+                            <div class="user-info">
+                                <h3>Yavana</h3>
+                                <span>happy customer</span>
+                            </div>
+                        </div>
+                        <span class="fas fa-quote-right"></span>
+                    </div>
+
+                    <div class="box-cont">
+                        <div class="box">
+                            <div class="start">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex in modi distinctio quibusdam
+                                velit iste pariatur perferendis doloribus quasi ipsam illo molestiae accusantium sed,
+                                consectetur aspernatur? Accusamus voluptates ratione fugit?</p>
+                            <div class="user">
+                                <img src="pepole4.jpg" alt="kkkk">
+                                <div class="user-info">
+                                    <h3>Arjun</h3>
+                                    <span>happy customer</span>
+                                </div>
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                        </div>
+
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> us</h1>
+        <div class="row">
+            <form action="">
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="number" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" row="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+            <div class="image">
+                <img src="bg img 10.png" alt="" width="200px" height="600px">
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer">
+        <div class="box-cont">
+            <div class="box">
+                <h3>quick link</h3>
+                <a href="">home</a>
+                <a href="">about</a>
+                <a href="">product</a>
+                <a href="">review</a>
+                <a href="">contact</a>
+            </div>
+            <div class="box">
+                <h3>extra link</h3>
+                <a href="">my account</a>
+                <a href="">my order</a>
+                <a href="">my favorite</a>
+
+            </div>
+            <div class="box">
+                <h3>location</h3>
+                <a href="">india</a>
+                <a href="">USA</a>
+                <a href="">japan</a>
+                <a href="">france</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="">+123-456-7890</a>
+                <a href="">example@gmail.com</a>
+                <a href="">mumbai, india - 5007876</a>
+
+            </div>
+            <div class="credit"> created by<span>kiruba</span></div>
+
+        </div>
+
+    </section>
+    
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
